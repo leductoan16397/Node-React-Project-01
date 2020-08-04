@@ -1,0 +1,156 @@
+{
+    "data": {
+        "projectType": [
+            {
+                "id": 1,
+                "name": "Nhà Phố",
+                "tittle": "Các Dự Án Nhà Phố",
+                "content": ""
+            },
+            {
+                "id": 2,
+                "name": "Biệt Thự",
+                "tittle": "Các Dự Án Biệt Thự",
+                "content": ""
+            },
+            {
+                "id": 3,
+                "name": "Tre Nghệ",
+                "tittle": "Các Dự Án Tre Nghệ",
+                "content": "Tre Nghệ hoạt động từ 6/2003 với sứ mệnh “WE DO FOR BETTER LIFE” – “Chúng ta làm cuộc sống tốt đẹp hơn”. Luôn lắng nghe, luôn thấu hiểu mong muốn khách hàng để kiến tạo những công trình thiết kế đẹp cho khách hàng cũng như sự hài lòng trong quá trình sử dụng sau này. "
+            }
+        ],
+        "houseType": [
+            {
+                "id": 0,
+                "name": "all"
+            },
+            {
+                "id": 1,
+                "name": "Có Hồ Bơi"
+            },
+            {
+                "id": 2,
+                "name": "Sân Vườn"
+            },
+            {
+                "id": 3,
+                "name": "Đơn Lập"
+            },
+            {
+                "id": 4,
+                "name": "Song Lập"
+            }
+        ],
+        "location": [
+            {
+                "id": 0,
+                "name": "all"
+            },
+            {
+                "id": 1,
+                "name": "Mặt Tiền"
+            },
+            {
+                "id": 2,
+                "name": "Hẻm"
+            },
+            {
+                "id": 3,
+                "name": "Ven Sông"
+            }
+        ],
+        "products": [
+            {
+                "id": 1,
+                "projectType": 1,
+                "houseType": 2,
+                "location": 3,
+                "price": 10000000,
+                "tittle": "Thiết Kế Cải Tạo Nhà Phố 3 Tầng Mặt Tiền 4m Tại Quận 11 – NP26",
+                "image": ""
+            },
+            {
+                "id": 2,
+                "projectType": 2,
+                "houseType": 2,
+                "location": 1,
+                "price": 10000000,
+                "tittle": "Thiết Kế Cải Tạo Nhà Phố 3 Tầng Mặt Tiền 4m Tại Quận 11 – NP26",
+                "image": ""
+            },
+            {
+                "id": 3,
+                "projectType": 3,
+                "houseType": 1,
+                "location": 1,
+                "price": 10000000,
+                "tittle": "Thiết Kế Cải Tạo Nhà Phố 3 Tầng Mặt Tiền 4m Tại Quận 11 – NP26",
+                "image": ""
+            },
+            {
+                "id": 4,
+                "projectType": 3,
+                "houseType": 4,
+                "location": 1,
+                "price": 10000000,
+                "tittle": "Thiết Kế Cải Tạo Nhà Phố 3 Tầng Mặt Tiền 4m Tại Quận 11 – NP26",
+                "image": ""
+            },
+            {
+                "id": 5,
+                "projectType": 2,
+                "houseType": 2,
+                "location": 1,
+                "price": 10000000,
+                "tittle": "Thiết Kế Cải Tạo Nhà Phố 3 Tầng Mặt Tiền 4m Tại Quận 11 – NP26",
+                "image": ""
+            },
+            {
+                "id": 6,
+                "projectType": 2,
+                "houseType": 3,
+                "location": 2,
+                "price": 10000000,
+                "tittle": "Thiết Kế Cải Tạo Nhà Phố 3 Tầng Mặt Tiền 4m Tại Quận 11 – NP26",
+                "image": ""
+            },
+            {
+                "id": 7,
+                "projectType": 2,
+                "houseType": 1,
+                "location": 1,
+                "price": 10000000,
+                "tittle": "Thiết Kế Cải Tạo Nhà Phố 3 Tầng Mặt Tiền 4m Tại Quận 11 – NP26",
+                "image": ""
+            },
+            {
+                "id": 8,
+                "projectType": 1,
+                "houseType": 4,
+                "location": 3,
+                "price": 10000000,
+                "tittle": "Thiết Kế Cải Tạo Nhà Phố 3 Tầng Mặt Tiền 4m Tại Quận 11 – NP26",
+                "image": ""
+            },
+            {
+                "id": 9,
+                "projectType": 2,
+                "houseType": 3,
+                "location": 3,
+                "price": 10000000,
+                "tittle": "Thiết Kế Cải Tạo Nhà Phố 3 Tầng Mặt Tiền 4m Tại Quận 11 – NP26",
+                "image": ""
+            },
+            {
+                "id": 10,
+                "projectType": 1,
+                "houseType": 3,
+                "location": 3,
+                "price": 10000000,
+                "tittle": "Thiết Kế Cải Tạo Nhà Phố 3 Tầng Mặt Tiền 4m Tại Quận 11 – NP26",
+                "image": ""
+            }
+        ]
+    }
+}
