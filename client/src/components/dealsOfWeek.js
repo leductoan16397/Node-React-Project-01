@@ -1,10 +1,10 @@
 import React from 'react';
 
-export default function InfomationFooter() {
+export default function DealsOfWeek() {
 
     return (
         <div className="infomation-footer">
-            <h1>InfomationFooter</h1>
+            <h1>deals of week</h1>
         </div>
     )
 }

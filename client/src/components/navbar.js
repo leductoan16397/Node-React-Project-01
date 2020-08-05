@@ -1,8 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 // import { Link } from 'react-router-dom';
 
 export default function NvarBar() {
-    const [logoSrc, setLogoSrc] = useState("/static/images/logo.png");
+    const [logoSrc, setLogoSrc] = useState();
+
+    useEffect(() => {
+        setLogoSrc("/static/images/logo.png");
+    },[])
 
     return (
         <div className="navbar navbar-expand-md navbar-light bg-light">

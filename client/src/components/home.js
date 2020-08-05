@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios'
-import Breadcrumb from './breadcrumb';
 import InfomationHeader from './infomationHeader';
-import InfomationFooter from './infomationFooter';
-import Filter from './filter';
+import DealsOfWeek from './dealsOfWeek';
 import ProductContainer from './productContainer';
 
 export default function Home() {
@@ -18,12 +16,8 @@ export default function Home() {
     return (
         <div className="App">
             <div>
-                <Breadcrumb />
                 <InfomationHeader />
-            </div>
-
-            <div>
-                <Filter />
+                <h2>{greeting}</h2>
             </div>
 
             <div>
@@ -31,7 +25,7 @@ export default function Home() {
             </div>
 
             <div>
-                <InfomationFooter />
+                <DealsOfWeek />
             </div>
         </div>
     )
