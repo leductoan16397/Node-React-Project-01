@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 
 export default function NvarBar() {
-    const [logoSrc, setLogoSrc] = useState();
-    useEffect(() => {
-        setLogoSrc("/static/karma/img/logo/logo.png");
-    }, [])
+    // const [logoSrc, setLogoSrc] = useState();
+    // useEffect(() => {
+    //     setLogoSrc("/static/karma/img/logo/logo.png");
+    // }, [])
 
     return (
         <header>
