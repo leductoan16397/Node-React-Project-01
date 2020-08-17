@@ -3,16 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import { Route, Switch, Router } from 'react-router-dom';
+import { Route, Switch, Router, BrowserRouter } from 'react-router-dom';
 const createHistory = require('history').createBrowserHistory;
 
 ReactDOM.render(
-
-  <Router history={createHistory()}>
-    <Switch>
-      <Route path="/" component={App} />
-    </Switch>
-  </Router>,
+  <BrowserRouter>
+    <Router history={createHistory()}>
+      <Switch>
+        <Route path="/" component={App} />
+      </Switch>
+    </Router>
+  </BrowserRouter>
+  ,
   document.getElementById('root')
 );
 

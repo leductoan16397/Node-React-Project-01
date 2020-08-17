@@ -1,17 +1,15 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios'
+import React from 'react';
 import WhyGoWithAnipat from '../element/whyGoWithAnipat';
 import OurTeam from '../element/ourTeam';
 import PetCare from '../element/petCare';
 import Adopt from '../element/adoptInfo';
 import Testmonial from '../element/testmonial';
-import AboutHeader from '../element/headerAbout';
+import Header from '../element/header';
 
 export default function About() {
-
     return (
         <div className="About">
-            <AboutHeader />
+            <Header tittle={"About Us"} />
             <PetCare />
             <Adopt />
             <Testmonial />

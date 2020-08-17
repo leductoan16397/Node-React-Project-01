@@ -1,10 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function NvarBar() {
-    // const [logoSrc, setLogoSrc] = useState();
-    // useEffect(() => {
-    //     setLogoSrc("/static/karma/img/logo/logo.png");
-    // }, [])
 
     return (
         <header>
@@ -44,30 +41,25 @@ export default function NvarBar() {
                         <div className="row align-items-center">
                             <div className="col-xl-3 col-lg-3">
                                 <div className="logo">
-                                    <a href="index.html">
+                                    <Link to="/">
                                         <img src="logo.png" alt="" />
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="col-xl-9 col-lg-9">
                                 <div className="main-menu  d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <li><a href="index.html">home</a></li>
-                                            <li><a href="about.html">about</a></li>
-                                            <li><a href="#">blog <i className="ti-angle-down" /></a>
-                                                <ul className="submenu">
-                                                    <li><a href="blog.html">blog</a></li>
-                                                    <li><a href="single-blog.html">single-blog</a></li>
-                                                </ul>
-                                            </li>
+                                            <li><Link to="/">home</Link></li>
+                                            <li><Link to="/about">about</Link></li>
+                                            <li><Link to="/blogs">blog</Link></li>
                                             <li><a href="#">pages <i className="ti-angle-down" /></a>
                                                 <ul className="submenu">
-                                                    <li><a href="elements.html">elements</a></li>
+                                                    <li><Link to="/elements">elements</Link></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="service.html">services</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
+                                            <li> <Link to="/services">services</Link></li>
+                                            <li><Link to="/contact">Contact</Link></li>
                                         </ul>
                                     </nav>
                                 </div>
