@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './footer.module.scss'
 
 export default function Footer() {
 
@@ -9,9 +10,7 @@ export default function Footer() {
                     <div className="row">
                         <div className="col-xl-3 col-md-6 col-lg-3">
                             <div className="footer_widget">
-                                <h3 className="footer_title">
-                                    Contact Us
-                  </h3>
+                                <h3 className="footer_title">Contact Us</h3>
                                 <ul className="address_line">
                                     <li>+555 0000 565</li>
                                     <li><a href="#">Demomail@gmail.Com</a></li>
@@ -21,9 +20,7 @@ export default function Footer() {
                         </div>
                         <div className="col-xl-3  col-md-6 col-lg-3">
                             <div className="footer_widget">
-                                <h3 className="footer_title">
-                                    Our Servces
-                  </h3>
+                                <h3 className="footer_title">Our Servces</h3>
                                 <ul className="links">
                                     <li><a href="#">Pet Insurance</a></li>
                                     <li><a href="#">Pet surgeries </a></li>
@@ -35,9 +32,7 @@ export default function Footer() {
                         </div>
                         <div className="col-xl-3  col-md-6 col-lg-3">
                             <div className="footer_widget">
-                                <h3 className="footer_title">
-                                    Quick Link
-                  </h3>
+                                <h3 className="footer_title">Quick Link</h3>
                                 <ul className="links">
                                     <li><a href="#">About Us</a></li>
                                     <li><a href="#">Privacy Policy</a></li>
@@ -56,7 +51,7 @@ export default function Footer() {
                                 </div>
                                 <p className="address_text">239 E 5th St, New York
                                 NY 10003, USA
-                  </p>
+                                </p>
                                 <div className="socail_links">
                                     <ul>
                                         <li>

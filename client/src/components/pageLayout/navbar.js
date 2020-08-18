@@ -1,34 +1,35 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import styles from './navbar.module.scss'
 
 export default function NvarBar() {
 
     return (
         <header>
-            <div className="header-area ">
-                <div className="header-top_area">
+            <div className={styles.header_area} >
+                <div className={styles.header_top_area} >
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-6 col-md-8">
-                                <div className="short_contact_list">
-                                    <ul>
+                                <div className={styles.short_contact_list}>
+                                    <ul >
                                         <li><a href="#">+880 4664 216</a></li>
                                         <li><a href="#">Mon - Sat 10:00 - 7:00</a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-4 ">
-                                <div className="social_media_links">
-                                    <a href="#">
+                                <div className={styles.social_media_links}>
+                                    <a href="https://www.facebook.com/">
                                         <i className="fa fa-facebook" />
                                     </a>
-                                    <a href="#">
+                                    <a href="https://www.facebook.com/">
                                         <i className="fa fa-pinterest-p" />
                                     </a>
-                                    <a href="#">
+                                    <a href="https://www.facebook.com/">
                                         <i className="fa fa-google-plus" />
                                     </a>
-                                    <a href="#">
+                                    <a href="https://www.facebook.com/">
                                         <i className="fa fa-linkedin" />
                                     </a>
                                 </div>
@@ -36,7 +37,7 @@ export default function NvarBar() {
                         </div>
                     </div>
                 </div>
-                <div id="sticky-header" className="main-header-area">
+                <div id="sticky-header" className={styles.main_header_area}>
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-xl-3 col-lg-3">
@@ -47,7 +48,7 @@ export default function NvarBar() {
                                 </div>
                             </div>
                             <div className="col-xl-9 col-lg-9">
-                                <div className="main-menu  d-none d-lg-block">
+                                <div className={styles.main_menu}>
                                     <nav>
                                         <ul id="navigation">
                                             <li><Link to="/">home</Link></li>
